@@ -1,0 +1,8 @@
+System.out.println(numeros [5]); // O que acontece aqui?
+Resposta: o comando está tentando acessar o quinto elemento do array, porém, o array só tem 3 elementos. Isso resultará em uma exceção ArrayIndexOutOfBoundsException.
+
+System.out.println(texto.length ()); // E aqui?
+Resposta: Nesta linha, está tentando o método length() de uma string que é null. Isso resultará em uma exceção NullPointerException, pois não pode chamar métodos em uma referência nula.
+
+int resultado = 10 / 0; // E aqui?
+Resposta: O comando etá tentando fazer uma divisão por zero, que não é possível, como resultado podemos usar a exceção "ArithmeticException"
