@@ -21,6 +21,10 @@ class Car{
         ano = 0000;
     }
 
+    void exibirDetalhes(){
+        System.out.println("Marca: " + marca + " Modelo: " + modelo + " Ano: "+ ano);
+        
+    }
     //construtor de cópia 
     public Car ( Car outroCar){
         this.marca = outroCar.marca;
@@ -28,10 +32,6 @@ class Car{
         this.ano = outroCar.ano;
     }
 
-    void exibirDetalhes(){
-        System.out.println("Marca: " + marca + " Modelo: " + modelo + " Ano: "+ ano);
-        
-    }
 
     String getMarca (){
         return marca;
@@ -88,6 +88,7 @@ class Garage{
     }    
     
 }
+
 
 public class Main1 {
     public static void main(String[] args) {
