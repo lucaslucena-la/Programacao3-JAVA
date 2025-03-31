@@ -1,11 +1,12 @@
 /*
- * Crie uma classe Contador com um atributo int valor, inicializado em 0. Duas threads (Incrementador
-    e Decrementador) devem, respectivamente, incrementar e decrementar o valor 10000 vezes.
-    Sem synchronized, o resultado final pode ser inconsistente. Com synchronized, garanta que a
-    saıda sempre seja 0
- * 
- * 
- */
+* Crie uma classe Contador com um atributo int valor, inicializado em 0. Duas threads (Incrementador
+e Decrementador) devem, respectivamente, incrementar e decrementar o valor 10000 vezes.
+Sem synchronized, o resultado final pode ser inconsistente. Com synchronized, garanta que a
+saıda sempre seja 0
+* 
+* 
+*/
+
 
 
 class Contador{
@@ -27,7 +28,7 @@ class Contador{
 
 public class Exec2 {
     public static void main(String[] args) {
-        Contador contador = new Contador();
+        Contador contador = new Contador(); //criação de um 
 
         Runnable tarefa = () ->{
             for (int i = 0; i < 10000; i++){

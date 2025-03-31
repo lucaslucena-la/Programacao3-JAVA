@@ -1,0 +1,26 @@
+#entrar{
+    -fx-background-color:#28A745 ;
+    -fx-text-fill:white ;
+    -fx-font-weight:bold ;
+}
+
+#limpar {
+    -fx-background-color:#DC3545 ;
+    -fx-text-fill: white ;
+    -fx-font-weight: bold ;
+}
+
+.resultado {
+    -fx-font-size:16 px ;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+}
